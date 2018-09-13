@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+class CandidateCode {
+    static void Main() {
+	//Write code here
+  double a;
+            int b, c, result;
+            a =Convert.ToDouble( Console.ReadLine());
+            b =Convert.ToInt16(Console.ReadLine());
+            c = Convert.ToInt16(Console.ReadLine());
+            result =Convert.ToInt16( (a * b * c) / 100);
+            Console.WriteLine(result);
+           
+    }
+}
