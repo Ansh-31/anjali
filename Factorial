@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+class CandidateCode {
+    static void Main(String[] args) {
+	 int fact;
+            int res = 1;
+            fact = Convert.ToInt16(Console.ReadLine());
+            
+            for (int i = 1; i <= fact; ++i)
+            {
+                res *= i;   
+               
+            }
+            Console.WriteLine(res);
+    }
+}
