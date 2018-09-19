@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<style> 
+.border {
+    width: 100%;
+    border: 2px solid black;
+    height: 600px;
+}
+h1,h3{
+background-color:black;
+color:white;
+
+}
+.id{
+    width: 80%;
+    
+    border: 2px solid black;
+    height: 300px;
+    margin-left: 60px;
+}
+h3{
+	text-align:center;
+}
+.controls{
+margin-left: 160px;
+}
+
+#save{
+margin-left: 390px;
+background-color: black;
+color:white;
+ border: 2px solid black;
+}
+
+</style>
+
+
+   <body>
+   
+   <div class="border">
+   	<h1> Sample Work </h1>
+      <form action="https://www.google.com/" method="post">
+      <div class="id">
+       <h3> Enter The Details</h3>
+       <div class="controls">
+       FirstName &nbsp<input type = "text" name = "fname" margin-left: 60px required pattern="[A-Za-z]{10}" title="10 letters only" />
+         <br> <br>
+         LastName &nbsp<input type = "text" name = "lname" required/>
+         <br> <br>
+        Address  &nbsp &nbsp <input type = "text" name = "add" required/>
+         <br> <br>
+  Pincode  &nbsp &nbsp <input type = "number" name = "pin" required minlength="6" maxlength="6" />
+         <br> <br>
+        Department 
+          <select name = "dropdown" required>
+            <option value = "HR" selected>HR</option>
+            <option value = "TAG">TAG</option>
+         </select>
+         &nbsp &nbsp &nbsp
+        Project
+        <select name = "dropdown1" required>
+            <option value = "BSTS" selected>BSTS</option>
+            <option value = "BMO">BMO</option>
+         </select>
+         <br> <br> <br>
+         </div>
+         <input type="submit" id="save" value="Save">
+       </div>   
+      </form>
+</div>
+</body>
+</html>
